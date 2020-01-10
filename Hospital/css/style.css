@@ -1,0 +1,139 @@
+	*{
+		margin:0;
+		padding:0;
+	}
+	/* Start Container */
+	.container{
+		width:1300px;
+		margin:auto;
+		padding:5px;
+	}
+
+	/* Start Header */
+	header{
+		margin-bottom:100px
+	}
+	.top_background{
+		background:linear-gradient(#d1d1ff,#fff);
+		font-size:50px;
+		padding:15px 0px 15px 30px;
+		font-family:cursive;
+		border-top-right-radius:30px;
+		border-top-left-radius:30px;
+		margin-top:0
+	}
+	header span{
+		color:#f00;
+	}
+	header .background{
+		background-image:url(../Images/slider.jpg);
+		background-size: 100% 490px;
+		height:490px;
+	}
+	ul{
+		height:60px;
+		list-style-type:none;
+		overflow:hidden;
+		background-color:#d1d1ff;
+		border-bottom-left-radius:30px;
+		border-bottom-right-radius:30px;
+	}
+	ul li{
+		float:left;
+		padding:10px;
+	}
+	ul li a{
+		font-size:25px;
+		text-decoration:none;
+		text-transform:uppercase;
+		color:#000;
+		font-family:cursive;
+	}
+	ul li a:hover{
+		color:#f00;
+	}
+	.checked{
+		color:#f00;
+	}
+	/* End Header */
+
+	/* Start Content */
+
+	.content{
+		min-height:500px;
+	}
+	.reception{
+		background-image:url(../Images/reception.jpg);
+		background-size:100% 700px;
+		height:700px;
+		position:relative;
+	}
+	.reception form{
+		width:500px;
+		margin:auto;
+		background-color:#fff;
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform:translate(-50%,-50%);
+		padding:20px;
+		background:rgba(255,255,255,0.5);
+	}
+	.reception h1{
+		text-align:center;
+		border-bottom:2px solid #000;
+	}
+	.reception label{
+		font-size:22px;
+		text-transform:capitalize;
+		font-weight:bold
+	}
+	.reception input{
+		background:transparent;
+		padding:10px;
+		border:1px solid #000;
+		font-size:20px;
+		width:50%;
+		outline:none;
+	}
+	input[type="radio"]
+	{
+		width:5%;
+		border-radius:10px
+	}
+	.reception select{
+		width:30%;
+		padding:5px;
+		font-size:20px;
+		outline:none;
+		background:transparent;
+		border:1px solid #000;
+	}
+	input[name="add_patient"]{
+		width:40%;
+		cursor:pointer;
+	}
+	input[name="add_patient"]:hover{
+		background-color:#000;
+		color:#fff;
+	}
+	.error{
+		color:red;
+		font-size: 20px
+	}
+	/* End Content */
+
+	/* Start Footer */
+	footer{
+		padding:10px;
+		background-color:#000;
+		color:#fff;
+		font-size:20px;
+		text-align:center;
+	}
+	footer span{
+		color:#f00;
+	}
+	/* End Footer */
+
+	/* End Container */
